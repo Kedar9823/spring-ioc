@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;WishMessageGenerator.java&apos; to &apos;setterinjection02/src/in.ineuron.component&apos;&#x0D;&#x0A;- Original project: &apos;setterInjection01&apos;&#x0D;&#x0A;- Destination element: &apos;setterinjection02/src/in.ineuron.component&apos;&#x0D;&#x0A;- Original element: &apos;in.ineuron.component.WishMessageGenerator.java&apos;" description="Copy compilation unit" destination="=setterinjection02/src&lt;in.ineuron.component" element1="/src&lt;in.ineuron.component{WishMessageGenerator.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1684057521387" units="1" version="1.0"/>
+</session>

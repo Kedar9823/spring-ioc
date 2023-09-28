@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="sysdate" class="java.util.Date" />
+	<bean id="d1" class="java.util.Date">
+		<property name="year" value="98" />
+		<property name="month" value="1" />
+		<property name="date" value="03" />
+	</bean>
+
+	<bean id="marksinfo" class="in.ineuron.component.MarksInfo">
+		<property name="marks">
+			<array>
+				<value>100</value>
+				<value>110</value>
+				<value>120</value>
+			</array>
+		</property>
+	</bean>
+
+	<bean id="clg" class="in.ineuron.component.College">
+		<property name="studentNames">
+			<list>
+				<value>Kedar</value>
+				<value>Virat</value>
+				<value>Dhoni</value>
+				<value>Sachin</value>
+			</list>
+		</property>
+		<property name="dob">
+			<list>
+				<ref bean="sysdate" />
+				<ref bean="d1" />
+			</list>
+		</property>
+	</bean>
+
+	<bean id="contactinfo" class="in.ineuron.component.ContactInfo">
+		<property name="contactNumbers">
+			<set>
+				<value>100</value>
+				<value>102</value>
+				<value>104</value>
+				<value>106</value>
+			</set>
+		</property>
+		<property name="dates">
+			<set>
+				<ref bean="sysdate" />
+			</set>
+		</property>
+	</bean>
+
+	<bean id="uni1" class="in.ineuron.component.UniversityInfo">
+		<property name="facultyDetails">
+			<map key-type="java.lang.Integer" value-type="java.lang.String">
+				<entry>
+					<key>
+						<value>10</value>
+					</key>
+					<value>sachin</value>
+				</entry>
+	
+				<entry key="7" value="dhoni" />
+				<entry key="18" value="kohli" />
+			</map>
+		</property>
+		<property name="datesInfo">
+			<map key-type="java.lang.String" value-type="java.util.Date">
+				<entry>
+					<key>
+						<value>toDay</value>
+					</key>
+					<ref bean="sysdate" />
+				</entry>
+				<entry key="d1" value-ref="d1" />
+			</map>
+		</property>
+		<property name="iplInfo">
+			<props>
+				<prop key="RCB">FAF</prop>
+				<prop key="RCB">Virat</prop>
+				<prop key="CSK">Dhoni</prop>
+				<prop key="CSK">Jadeja</prop>
+				<prop key="MI">Rohit</prop>
+				<prop key="MI">SKY</prop>
+			</props>
+		</property>
+	</bean>
+
+</beans>

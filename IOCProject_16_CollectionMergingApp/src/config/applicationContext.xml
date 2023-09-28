@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--	<bean id = "firstYear" class="in.ineuron.component.EnggCourse" abstract="true">
+		<property name = "courses">
+			<set>
+				<value>M1</value>
+				<value>Physics</value>
+				<value>Chemistry</value>
+			</set>
+		</property>
+	</bean>
+	
+	<bean id = "CS" class="in.ineuron.component.EnggCourse" parent ="firstYear">
+		<property name = "courses">
+			<set merge= "true">
+				<value>DS</value>
+				<value>M3</value>
+				<value>C++</value>
+			</set>
+		</property>
+	</bean> -->
+	
+		<bean id = "firstYear" class="in.ineuron.component.EnggCourse" abstract="true">
+		<constructor-arg name = "courses">
+			<set>
+				<value>M1</value>
+				<value>Physics</value>
+				<value>Chemistry</value>
+			</set>
+		</constructor-arg>
+	</bean>
+	
+	<bean id = "CS" class="in.ineuron.component.EnggCourse" parent ="firstYear">
+		<constructor-arg name = "courses">
+			<set merge= "true">
+				<value>DS</value>
+				<value>M3</value>
+				<value>C++</value>
+			</set>
+		</constructor-arg>
+	</bean>
+
+</beans>

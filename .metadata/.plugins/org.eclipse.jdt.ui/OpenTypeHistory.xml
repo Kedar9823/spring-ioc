@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=SpringORMUsing_XML_01/C:\/Users\/Kedar10\/.m2\/repository\/mysql\/mysql-connector-java\/8.0.12\/mysql-connector-java-8.0.12.jar=/maven.pomderived=/true=/=/maven.groupId=/mysql=/=/maven.artifactId=/mysql-connector-java=/=/maven.version=/8.0.12=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;com.mysql.cj.xdevapi(InsertStatement.class[InsertStatement" modifiers="1537" timestamp="1682168364885"/>
+    <typeInfo handle="=SpringORMUsing_XML_01/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.ineuron.service{IStudentService.java[IStudentService" modifiers="513" timestamp="1682168307680"/>
+    <typeInfo handle="=SpringORMUsing_XML_01/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.ineuron.dao{IStudentDAO.java[IStudentDAO" modifiers="513" timestamp="1682168307623"/>
+    <typeInfo handle="=SpringORMusing_XML/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.ineuron.dao{IStudentDAO.java[IStudentDAO" modifiers="513" timestamp="1682246762903"/>
+    <typeInfo handle="=RealTime_DependencyInjection_Pro/src&lt;in.ineuron.component{Courier.java[Courier" modifiers="513" timestamp="1685094054030"/>
+    <typeInfo handle="=IOCProject_01_RealTimeDIProject/src&lt;in.ineuron.service{ICustomerManagementService.java[ICustomerManagementService" modifiers="513" timestamp="1685870570789"/>
+    <typeInfo handle="=IOCProject_01_RealTimeDIProject/C:\/Program Files\/Java\/jdk-19\/lib\/jrt-fs.jar`java.desktop=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/19\/docs\/api\/=/=/module=/true=/&lt;javax.swing(Icon.class[Icon" modifiers="1537" timestamp="1678989759776"/>
+</typeInfoHistroy>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;IOCProject_28_RealTimeDI_SteroAnnotationsandPropertiesFileApproach&apos; to &apos;IOCProject_28_RealTimeDI_Spring100%AnnotationDriven&apos;&#x0D;&#x0A;- Original element: &apos;IOCProject_28_RealTimeDI_SteroAnnotationsandPropertiesFileApproach&apos;&#x0D;&#x0A;- Renamed element: &apos;IOCProject_28_RealTimeDI_SteroAnnotationsandPropertiesFileApproach&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;IOCProject_28_RealTimeDI_SteroAnnotationsandPropertiesFileApproach&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=IOCProject_28_RealTimeDI_SteroAnnotationsandPropertiesFileApproach" name="IOCProject_28_RealTimeDI_Spring100%AnnotationDriven" references="true" stamp="1685886108663" version="1.0"/>
+</session>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <!-- Configuring the Target Component-->
+       <bean id="std1" class="in.ineuron.component.Student">
+		  <constructor-arg type="java.lang.Integer" value="7"/>
+		  <constructor-arg type="java.lang.String" value="Dhoni"/>
+		  <constructor-arg type="java.lang.String" value="CSK"/>
+		  <constructor-arg type="java.lang.Float" value="110.1f"/>
+	  </bean>
+        
+      <bean id="std2" class="in.ineuron.component.Student">
+		  <constructor-arg index="0" value="10"/>
+		  <constructor-arg index="1" value="Sachin"/>
+		  <constructor-arg index="2" value="MI"/>
+		  <constructor-arg index="3" value="10000.1f"/>
+	  </bean>
+	  
+	  <bean id="std3" class="in.ineuron.component.Student">
+		  <constructor-arg name="sno" value="18"/>
+		  <constructor-arg name="sname" value="Virat"/>
+		  <constructor-arg name="saddr" value="RCB"/>
+		  <constructor-arg name="avg" value="100.1f"/>
+	  </bean>
+	  
+	  <bean id="std4" class="in.ineuron.component.Student">
+		  <constructor-arg type="java.lang.Integer" index="0" name="sno" value="19"/>
+		  <constructor-arg type="java.lang.String" index="1" name="sname" value="Faf"/>
+		  <constructor-arg type="java.lang.String" index="2" name="saddr" value="RCB"/>
+		  <constructor-arg type="java.lang.Float" index="3" name="avg" value="1000.2f"/>
+	  </bean>
+</beans>

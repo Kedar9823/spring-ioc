@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TestAppApplicationContext.java&apos; to &apos;IOCProject-Project-23-Spring@Autowire/src/in.ineuron.main&apos;&#x0D;&#x0A;- Original project: &apos;RealTime_DependencyInjection_Pro&apos;&#x0D;&#x0A;- Destination element: &apos;IOCProject-Project-23-Spring@Autowire/src/in.ineuron.main&apos;&#x0D;&#x0A;- Original element: &apos;in.ineuron.main.TestAppApplicationContext.java&apos;" description="Copy compilation unit" destination="=IOCProject-Project-23-Spring\@Autowire/src&lt;in.ineuron.main" element1="/src&lt;in.ineuron.main{TestAppApplicationContext.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1685795205258" units="1" version="1.0"/>
+</session>

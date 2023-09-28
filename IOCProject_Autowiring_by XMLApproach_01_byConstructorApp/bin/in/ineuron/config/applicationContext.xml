@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+ 
+	<bean id="delhi" class="in.ineuron.component.Delhivery" />
+	<bean id="courier" class="in.ineuron.component.BlueDart"/>
+	<bean id="dtdc" class="in.ineuron.component.DTDC" primary="true"/>
+	<bean id="ff" class="in.ineuron.component.FirstFlight" />
+
+	<bean id="fpkt" class="in.ineuron.component.FlipKart" autowire="constructor">
+		<constructor-arg name="discount" value="30"/>
+	</bean>
+
+</beans>

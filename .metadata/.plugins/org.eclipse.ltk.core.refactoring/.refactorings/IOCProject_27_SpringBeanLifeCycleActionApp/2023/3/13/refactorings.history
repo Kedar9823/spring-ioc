@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 5 elements from project &apos;IOCProject_27_SpringBeanLifeCycleActionApp&apos;&#x0D;&#x0A;- Original project: &apos;IOCProject_27_SpringBeanLifeCycleActionApp&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     in.ineuron.comp.BlueDart.java&#x0D;&#x0A;     in.ineuron.comp.Courier.java&#x0D;&#x0A;     in.ineuron.comp.DTDC.java&#x0D;&#x0A;     in.ineuron.comp.FirstFlight.java&#x0D;&#x0A;     in.ineuron.comp.Flipkart.java" description="Delete elements" element1="/src&lt;in.ineuron.comp{DTDC.java" element2="/src&lt;in.ineuron.comp{Courier.java" element3="/src&lt;in.ineuron.comp{BlueDart.java" element4="/src&lt;in.ineuron.comp{FirstFlight.java" element5="/src&lt;in.ineuron.comp{Flipkart.java" elements="5" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1680172575537" subPackages="false" version="1.0"/>
+</session>

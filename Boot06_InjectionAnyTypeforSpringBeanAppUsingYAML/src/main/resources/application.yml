@@ -1,0 +1,27 @@
+emp:
+  info:
+    company:
+      location: banglore
+      size: 80
+      title: Ineuron
+    id: 10
+    id-details:
+      acctNo: 1004
+      adharNo: 1001
+      panNo: 1002
+      voterid: 1005
+    name: sachin
+    phone-numbers:
+    - 92001
+    - 92002
+    - 92003
+    - 92004
+    skills:
+    - java
+    - jee
+    - ORM
+    - Springboot
+    team-members:
+    - Nitin
+    - Hyder
+    - Kedar
